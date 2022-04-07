@@ -1,0 +1,90 @@
+body{
+    background-color: aliceblue;
+    font-family: 'Montserrat', sans-serif;
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+hr{
+    width: 5em;
+    /* background-color: #FFE600; */
+
+}
+
+.container{
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-text{
+    text-align: center;
+}
+
+
+
+.hero-section{
+    background-color: #000;
+    background-image: url(../img/hero-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 0 .5em 2em;
+}
+
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    min-height:100vh;
+    max-width: 20em;
+}
+
+
+.icons{
+    order: -1;
+    margin-bottom: 2em;
+}
+
+
+.footer{
+    background: #EBEBEB;
+    padding: 4em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-items{
+    list-style: none;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+}
+
+.list-link{
+    color: #000;
+    font-size: 1.75rem;
+    margin: 0 .2em;
+}
+
+.list-link:hover,
+.list-link:focus{
+    color: #7fedf5;
+}
+
+.list-item{
+    align-items: center;
+}
+
+.copyright{
+    margin-top: 5em;
+}
+
+.footer-info{
+    opacity: .3;
+}
